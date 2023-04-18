@@ -83,6 +83,21 @@ header a:hover {
     color: rgb(17, 167, 226);
 }
 
+.vertical {
+    position: fixed;
+    color: white;
+}
+
+.first {
+    height: 55px;
+    top: 224px;
+}
+
+.second {
+    height: 49px;
+    top: 445px
+}
+
 /* Intro tab */
 
 .intro-tab {

@@ -1,9 +1,11 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 
+/* Mobile version witdh 576px */
+
 body {
     position: relative;
-    background-image: url(/resources/bg.jpg); 
-    background-position: top;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/resources/bg.jpg), url(/resources/bg-overlay.png);
+    background-position: top, top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -70,18 +72,7 @@ header p {
     background-color: rgb(253, 253, 253, 0.2);
 }
 
-@media (min-width: 992px) {
-    
-    .nav {
-        flex-direction: row;
-        justify-content: center;
-    }
 
-    .nav div {
-        width: 10vw;
-        margin: 0;
-    }
-}
 header a {
     text-decoration-style: dotted;
 }
@@ -94,14 +85,19 @@ header a:hover {
     color: rgb(17, 167, 226);
 }
 
-@media (min-width: 992px) {
-    header {
-        margin-top: 39vh;
-    }
+.vertical {
+    position: fixed;
+    color: white;
+}
 
-    header div {
-        width: 95vw;
-    }
+.first {
+    height: 55px;
+    top: 224px;
+}
+
+.second {
+    height: 49px;
+    top: 445px
 }
 
 /* Intro tab */
@@ -160,6 +156,22 @@ video {
 }
 
 @media (min-width: 992px) {
+    .nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nav div {
+        width: 10vw;
+        margin: 0;
+    }
+    header {
+        margin-top: 39vh;
+    }
+
+    header div {
+        width: 95vw;
+    }
     video {
         position: relative;
         max-width: 45vw;
@@ -168,5 +180,15 @@ video {
 
     .tabs-image {
         max-width: 45vw;
+    }
+
+    .first {
+        height: 50px;
+        top: 650px
+    }
+    
+    .second {
+        height: 55px;
+        top: 445px
     }
 }

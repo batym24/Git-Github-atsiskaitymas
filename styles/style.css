@@ -45,3 +45,10 @@ header p {
     word-spacing: 7px;
 }
 
+header a {
+    text-decoration-style: dotted;
+}
+
+header a:hover {
+    color: rgb(17, 167, 226);
+}

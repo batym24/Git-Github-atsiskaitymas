@@ -107,6 +107,10 @@ header a:hover {
 /* Intro tab */
 
 .intro-tab {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -123,6 +127,7 @@ header a:hover {
 }
 
 .intro-tab h2 {
+    align-self: flex-start;
     letter-spacing: 5px;
     text-decoration: underline;
 }

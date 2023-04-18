@@ -38,3 +38,14 @@ document.querySelector(".work").addEventListener('click', () => {
 
     document.querySelector("body").appendChild(newTab)
 })
+
+document.querySelector(".about").addEventListener('click', () => {
+    const newTab = tabs('ABOUT', "./resources/tab-3.jpg")
+
+    document.querySelector("body").appendChild(newTab)
+})
+document.querySelector(".contact").addEventListener('click', () => {
+    const newTab = tabs('CONTACT', "./resources/tab-4.jpg")
+
+    document.querySelector("body").appendChild(newTab)
+})

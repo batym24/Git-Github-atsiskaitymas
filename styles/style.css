@@ -116,10 +116,9 @@ header a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90vw;
-    background-color: rgb(63, 61, 61);
+    background-color: rgba(63, 61, 61, 0.8);
     color: white;
     z-index: 100;
-    opacity: 0.9;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid black;

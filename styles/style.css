@@ -144,3 +144,13 @@ header a:hover {
 .close-image:hover {
     transform: rotate(90deg);
 }
+
+video {
+    width: 80vw;
+}
+
+.intro-tab p {
+    text-align: justify;
+    margin: 5px;
+    line-height: 25px;
+}

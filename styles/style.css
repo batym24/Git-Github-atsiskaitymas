@@ -1,6 +1,7 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 
 body {
+    position: relative;
     background-image: url(/resources/bg.jpg); 
     background-position: top;
     background-repeat: no-repeat;
@@ -101,4 +102,40 @@ header a:hover {
     header div {
         width: 95vw;
     }
+}
+
+/* Intro tab */
+
+.intro-tab {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    height: 90vh;
+    background-color: rgb(63, 61, 61);
+    color: white;
+    z-index: 100;
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.intro-tab h2 {
+    letter-spacing: 5px;
+    text-decoration: underline;
+}
+
+.close-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    width: 20px;
+    transition: 1s;
+}
+
+.close-image:hover {
+    transform: rotate(90deg);
 }

@@ -1,7 +1,6 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 
 body {
-    height: 100%;
     background-image: url(/resources/bg.jpg); 
     background-position: top;
     background-repeat: no-repeat;
@@ -45,8 +44,30 @@ header p {
     word-spacing: 7px;
 }
 
+.nav {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav div {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    border: 1px solid white;
+    width: 65vh;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+}
+
 header a {
     text-decoration-style: dotted;
+}
+
+header a:hover {
+    color: rgb(17, 167, 226);
 }
 
 header a:hover {

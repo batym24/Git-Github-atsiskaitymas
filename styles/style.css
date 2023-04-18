@@ -1,8 +1,10 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 
+/* Mobile version witdh 576px */
+
 body {
     position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/resources/bg.jpg), url(/resources/bg-overlay.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/resources/bg.jpg), url(/resources/bg-overlay.png);
     background-position: top, top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -178,5 +180,15 @@ video {
 
     .tabs-image {
         max-width: 45vw;
+    }
+
+    .first {
+        height: 50px;
+        top: 650px
+    }
+    
+    .second {
+        height: 55px;
+        top: 445px
     }
 }

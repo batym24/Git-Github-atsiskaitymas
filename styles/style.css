@@ -1,0 +1,14 @@
+@import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
+
+body {
+    height: 100%;
+    background-image: url(/resources/bg.jpg); 
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header img {
+    width: 30px;
+}

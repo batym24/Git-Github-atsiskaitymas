@@ -162,7 +162,11 @@ video {
 @media (min-width: 992px) {
     video {
         position: relative;
-        max-width: 65vw;
+        max-width: 45vw;
         height: auto
+    }
+
+    .tabs-image {
+        max-width: 45vw;
     }
 }

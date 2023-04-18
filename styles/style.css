@@ -2,8 +2,8 @@
 
 body {
     position: relative;
-    background-image: url(/resources/bg.jpg); 
-    background-position: top;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/resources/bg.jpg), url(/resources/bg-overlay.png);
+    background-position: top, top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

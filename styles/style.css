@@ -18,8 +18,8 @@ header {
 header img {
     width: 30px;
     border: 1px solid white; 
-    border-radius: 35px;
-    padding: 20px;
+    border-radius: 40px;
+    padding: 25px;
 
 }
 
@@ -56,12 +56,29 @@ header p {
     padding: 10px;
     justify-content: center;
     border: 1px solid white;
-    width: 65vh;
+    width: 65vw;
     margin: auto;
     color: white;
     text-transform: uppercase;
 }
 
+.nav div:hover {
+    cursor: pointer;
+    background-color: rgb(253, 253, 253, 0.2);
+}
+
+@media (min-width: 992px) {
+    
+    .nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nav div {
+        width: 10vw;
+        margin: 0;
+    }
+}
 header a {
     text-decoration-style: dotted;
 }

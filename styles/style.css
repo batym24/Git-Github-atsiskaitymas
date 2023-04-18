@@ -70,18 +70,7 @@ header p {
     background-color: rgb(253, 253, 253, 0.2);
 }
 
-@media (min-width: 992px) {
-    
-    .nav {
-        flex-direction: row;
-        justify-content: center;
-    }
 
-    .nav div {
-        width: 10vw;
-        margin: 0;
-    }
-}
 header a {
     text-decoration-style: dotted;
 }
@@ -92,16 +81,6 @@ header a:hover {
 
 header a:hover {
     color: rgb(17, 167, 226);
-}
-
-@media (min-width: 992px) {
-    header {
-        margin-top: 39vh;
-    }
-
-    header div {
-        width: 95vw;
-    }
 }
 
 /* Intro tab */
@@ -160,6 +139,22 @@ video {
 }
 
 @media (min-width: 992px) {
+    .nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nav div {
+        width: 10vw;
+        margin: 0;
+    }
+    header {
+        margin-top: 39vh;
+    }
+
+    header div {
+        width: 95vw;
+    }
     video {
         position: relative;
         max-width: 45vw;

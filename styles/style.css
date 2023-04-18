@@ -62,3 +62,14 @@ header p {
     text-transform: uppercase;
 }
 
+header a {
+    text-decoration-style: dotted;
+}
+
+header a:hover {
+    color: rgb(17, 167, 226);
+}
+
+header a:hover {
+    color: rgb(17, 167, 226);
+}

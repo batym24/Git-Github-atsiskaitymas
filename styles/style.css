@@ -18,8 +18,8 @@ header {
 header img {
     width: 30px;
     border: 1px solid white; 
-    border-radius: 35px;
-    padding: 20px;
+    border-radius: 40px;
+    padding: 25px;
 
 }
 
@@ -72,4 +72,14 @@ header a:hover {
 
 header a:hover {
     color: rgb(17, 167, 226);
+}
+
+@media (min-width: 992px) {
+    header {
+        margin-top: 275px;
+    }
+
+    header div {
+        width: 95vw;
+    }
 }

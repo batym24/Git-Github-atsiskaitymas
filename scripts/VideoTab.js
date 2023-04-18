@@ -1,7 +1,5 @@
 export default class VideoTab {
-    constructor(props){
-        this.props = props
-
+    constructor(){
         return this.render()
     }
 

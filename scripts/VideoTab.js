@@ -1,4 +1,4 @@
-export default class Tab {
+export default class VideoTab {
     constructor(props){
         this.props = props
 

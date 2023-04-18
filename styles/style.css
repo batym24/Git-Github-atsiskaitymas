@@ -116,7 +116,6 @@ header a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90vw;
-    height: 90vh;
     background-color: rgb(63, 61, 61);
     color: white;
     z-index: 100;
@@ -129,7 +128,9 @@ header a:hover {
 .intro-tab h2 {
     align-self: flex-start;
     letter-spacing: 5px;
-    text-decoration: underline;
+    border-bottom: 2px solid white;
+    padding: 20px 0;
+    line-height: 5px;
 }
 
 .close-image {
@@ -153,4 +154,12 @@ video {
     text-align: justify;
     margin: 5px;
     line-height: 25px;
+}
+
+@media (min-width: 992px) {
+    video {
+        position: relative;
+        max-width: 65vw;
+        height: auto
+    }
 }

@@ -90,3 +90,13 @@ header a:hover {
 header a:hover {
     color: rgb(17, 167, 226);
 }
+
+@media (min-width: 992px) {
+    header {
+        margin-top: 275px;
+    }
+
+    header div {
+        width: 95vw;
+    }
+}
